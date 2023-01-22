@@ -1,0 +1,29 @@
+Some important Event classes and interfaces:
+-------------------------------------------
+
+1. ActionEvent -> generated when button is pressed, menu-item is selected, list-item is double clicked.
+   Listener Interface -> ActionListener
+
+2. MouseEvent -> generated when mouse is dragged, moved, clicked, pressed or released also when enters or exits a component.
+   Listener Interface -> MouseListener
+
+3. KeyEvent -> generated when input is received from keyboard
+   Listener Interface ->  KeyListener
+
+4. ItemEvent -> generated when check-box or list item is clicked
+   Listener Interface -> ItemListener
+
+5. TextEvent -> generated when value of textarea or text field is changed.
+   Listener Interface -> TextListener
+
+6. MouseWheelEvent -> generated when mouse wheel is moved
+   Listener Interface -> MouseWheelListener
+
+7. WindowEvent -> generated when window is activated, deactivated, de iconified, iconified, opened or closed.
+   Listener Interface -> WindowListener
+
+8. ComponentEvent -> generated when component is hidden, moved, resized or set visible.
+   Listener Interface -> ComponentEventListener
+
+9. ContainerEvent -> generated when component is added or removed from container.
+   Listener Interface ->  ContainerListener
